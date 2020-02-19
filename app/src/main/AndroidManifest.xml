@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.darkshadows.shady.studentsapp">
+    package="com.darkshadows.shady.departmentnoticeapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.darkshadows.shady.departmentnoticeapp.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,25 +23,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name="com.darkshadows.shady.departmentnoticeapp.LoginActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".SetupActivity" />
+        <activity android:name="com.darkshadows.shady.departmentnoticeapp.RegisterActivity" />
+        <activity android:name="com.darkshadows.shady.departmentnoticeapp.SetupActivity" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
         <activity
-            android:name=".NewPostActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.darkshadows.shady.departmentnoticeapp.NewPostActivity"
+            android:parentActivityName="com.darkshadows.shady.departmentnoticeapp.MainActivity" />
         <activity
-            android:name=".CommentsActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.darkshadows.shady.departmentnoticeapp.NewFileActivity"
+            android:parentActivityName="com.darkshadows.shady.departmentnoticeapp.MainActivity" />
         <activity
-            android:name=".NewFileActivity"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".ViewUploadsActivity"
-            android:parentActivityName=".NewFileActivity" />
+            android:name="com.darkshadows.shady.departmentnoticeapp.ViewUploadsActivity"
+            android:parentActivityName="com.darkshadows.shady.departmentnoticeapp.NewFileActivity" />
     </application>
 
 </manifest>

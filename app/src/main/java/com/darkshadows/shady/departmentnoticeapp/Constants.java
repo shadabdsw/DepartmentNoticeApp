@@ -1,4 +1,4 @@
-package com.darkshadows.shady.studentsapp;
+package com.darkshadows.shady.departmentnoticeapp;
 
 public class Constants {
 

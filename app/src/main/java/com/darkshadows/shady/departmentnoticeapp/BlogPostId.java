@@ -1,4 +1,4 @@
-package com.darkshadows.shady.studentsapp;
+package com.darkshadows.shady.departmentnoticeapp;
 
 import com.google.firebase.firestore.Exclude;
 import android.support.annotation.NonNull;

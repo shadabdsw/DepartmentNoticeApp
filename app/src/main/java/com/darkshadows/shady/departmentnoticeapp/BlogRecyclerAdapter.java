@@ -1,9 +1,6 @@
-package com.darkshadows.shady.studentsapp;
+package com.darkshadows.shady.departmentnoticeapp;
 
 import android.content.Context;
-import android.content.Intent;
-import android.media.Image;
-import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;

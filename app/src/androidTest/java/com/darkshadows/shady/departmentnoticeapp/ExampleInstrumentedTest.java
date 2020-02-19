@@ -1,4 +1,4 @@
-package com.darkshadows.shady.studentsapp;
+package com.darkshadows.shady.departmentnoticeapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
